@@ -57,14 +57,34 @@
 
         </div>
        <div class="col-sm-2">
+       <a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Hello%20world"
+  data-size="large"></a>
 
        </div>
     </div>
     <div>
+    <a class="twitter-timeline" href="https://twitter.com/2bdheeraj?ref_src=twsrc%5Etfw">
 
     </div>
         
     </div>
+    <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
    
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
